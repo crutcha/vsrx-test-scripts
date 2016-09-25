@@ -11,7 +11,10 @@ vars = {
     'p2_lifetime': '3600',
     'tunnel_unit': '10',
     'security_zone': 'trust',
-    'tunnel_address': '3.3.3.3'
+    'tunnel_address': '192.2.1.2',
+    'aws_bgp_as': '65000',
+    'bgp_remote': '192.2.1.1',
+    'local_as' : 65500 
 }
 
 #Render template
